@@ -6,3 +6,4 @@ Application Streamlit pour pratiquer Git
 Application Streamlit en ligne : https://calculatrice-ukqv3gbainybs6fmbn3zpa.streamlit.app
 
 Opérations disponibles : addition 
+Contributeurs : Wiam
