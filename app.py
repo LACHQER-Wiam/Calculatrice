@@ -1,5 +1,5 @@
 import streamlit as st
-from calculs import addition, soustraction
+from calculs import addition, soustraction, multiplication
 
 st.title("Calculatrice")
 
@@ -14,4 +14,7 @@ if st.button("Calculer"):
         st.write(f"Résultat: {result}")
     elif operation == "Soustraction":
         result = soustraction(a, b)
+        st.write(f"Résultat: {result}")
+    elif operation == "Multiplication":
+        result = multiplication(a, b)
         st.write(f"Résultat: {result}")
