@@ -1,4 +1,5 @@
 import streamlit as st
+from calculs import addition
 
 st.title("Calculatrice")
 
@@ -9,7 +10,5 @@ operation = st.selectbox("Opération", ["Addition"])
 
 if st.button("Calculer"):
     if operation == "Addition":
-        result = a + b
+        result = addition(a, b)
         st.write(f"Résultat: {result}")
-
-
