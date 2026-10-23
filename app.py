@@ -6,7 +6,7 @@ st.title("Calculatrice")
 a = st.number_input("Premier nombre", value=0.0)
 b = st.number_input("Deuxième nombre", value=0.0)
 
-operation = st.selectbox("Opération", ["Addition", "Soustraction"])
+operation = st.radio("Choisissez une opération", ("Addition", "Soustraction", "Multiplication"))
 
 if st.button("Calculer"):
     if operation == "Addition":
